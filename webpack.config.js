@@ -37,7 +37,7 @@ module.exports = {
     }),
     new CopyPlugin({
       patterns: [
-        { from: path.resolve(__dirname, "./public/photos"), to: path.resolve(__dirname, "./photos") },
+        { from: path.resolve(__dirname, "./public/photos"), to: path.resolve(__dirname, "./build/photos") },
       ],
     }),
   ],
