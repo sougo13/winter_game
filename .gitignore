@@ -3,6 +3,7 @@
 # dependencies
 /говорим о зиме
 /node_modules
+/photos
 /.pnp
 .pnp.js
 
