@@ -265,83 +265,53 @@ export const footprints2 = [
   }
 ]
 
-export const natural = [
+export const tails1 = [
   {
-    id: '1',
-    src: '../photos/natural/1.png',
-    flag: false
+    id: 1,
+    src: '../photos/tails/1.jpg',
+    name: 'Кабаний'
   },
   {
-    id: '2',
-    src: '../photos/natural/2.png',
-    flag: false
+    id: 2,
+    src: '../photos/tails/2.jpg',
+    name: 'Бобриный'
   },
   {
-    id: '3',
-    src: '../photos/natural/3.png',
-    flag: false
+    id: 3,
+    src: '../photos/tails/3.jpg',
+    name: 'Медвежий'
   },
   {
-    id: '4',
-    src: '../photos/natural/4.png',
-    flag: false
+    id: 4,
+    src: '../photos/tails/4.jpg',
+    name: 'Барсучий'
+  }
+]
+
+export const tails2 = [
+  {
+    id: 5,
+    src: '../photos/tails/5.jpg',
+    name: 'Лисий'
   },
   {
-    id: '5',
-    src: '../photos/natural/5.png',
-    flag: true
+    id: 6,
+    src: '../photos/tails/6.jpg',
+    name: 'Ежиный'
   },
   {
-    id: '6',
-    src: '../photos/natural/6.png',
-    flag: false
+    id: 7,
+    src: '../photos/tails/7.jpg',
+    name: 'Беличий'
   },
   {
-    id: '7',
-    src: '../photos/natural/7.png',
-    flag: false
-  }, {
-    id: '8',
-    src: '../photos/natural/8.png',
-    flag: false
+    id: 8,
+    src: '../photos/tails/8.jpg',
+    name: 'Волчий'
   },
   {
-    id: '9',
-    src: '../photos/natural/9.png',
-    flag: false
-  },
-  {
-    id: '10',
-    src: '../photos/natural/10.png',
-    flag: false
-  },
-  {
-    id: '11',
-    src: '../photos/natural/11.png',
-    flag: false
-  },
-  {
-    id: '12',
-    src: '../photos/natural/12.png',
-    flag: true
-  },
-  {
-    id: '13',
-    src: '../photos/natural/13.png',
-    flag: true
-  },
-  {
-    id: '14',
-    src: '../photos/natural/14.png',
-    flag: true
-  },
-  {
-    id: '15',
-    src: '../photos/natural/15.png',
-    flag: true
-  }, {
-    id: '16',
-    src: '../photos/natural/16.png',
-    flag: false
+    id: 9,
+    src: '../photos/tails/9.jpg',
+    name: 'Лосиный'
   }
 ]

@@ -4,9 +4,9 @@ import Menu from './mainMenu';
 import WhoLivesWhere from './whoLivesWhere';
 import { Autor, MainMenuButton } from './styled';
 import WhoseFootprints from './whoseFootprints';
-import Nature from './nature';
 import BabyAnimals from './babyAnimals';
 import AnimalsCount from './animalsCount';
+import WhoseTails from './whoseTail';
 
 export const GameContext = createContext();
 
@@ -28,7 +28,7 @@ function App() {
         <CardBody>
           <Col xl='12'>
             {context.currentGameId === 0 ? <Menu /> : null}
-            {context.currentGameId === 1 ? <Nature /> : null}
+            {context.currentGameId === 1 ? <WhoseTails /> : null}
             {context.currentGameId === 2 ? <WhoLivesWhere /> : null}
             {context.currentGameId === 3 ? <WhoseFootprints /> : null}
             {context.currentGameId === 4 ? <AnimalsCount /> : null}

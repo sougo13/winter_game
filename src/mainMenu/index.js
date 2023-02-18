@@ -29,9 +29,9 @@ const Menu = () => {
         <Card style={{ padding: '10px', margin: 'auto', right: '70px', background: '#fac5f1d5', width: 'fit-content' }}>
           <CardBody >
             <Col xs='12'>
-              {/* <Row className='justify-content-center'>
-                <StyledButton onClick={() => setContext({ ...context, currentGameId: 1 })}>Природу я люблю, природу берегу!</StyledButton>
-              </Row> */}
+              <Row className='justify-content-center'>
+                <StyledButton onClick={() => setContext({ ...context, currentGameId: 1 })}>Чей хвост?</StyledButton>
+              </Row>
               <Row className='justify-content-center'>
                 <StyledButton onClick={() => setContext({ ...context, currentGameId: 2 })}>Кто, где живет?</StyledButton>
               </Row>
