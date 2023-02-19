@@ -15,7 +15,7 @@ const Menu = () => {
     <div style={{width: '100%', display: 'flex', justifyContent: 'space-around'}}>
           <Col xs='3'>
             <MonthName>Декабрь</MonthName>
-            <Row><MonthImg src='../photos/dec.jpg'/></Row>
+            <Row style={{borderRadius: '15px'}}><MonthImg src='../photos/dec.jpg'/></Row>
           </Col>
           <Col xs='3'>
           <MonthName>Январь</MonthName>
@@ -26,7 +26,7 @@ const Menu = () => {
             <Row><MonthImg src='../photos/feb.jpg'/></Row>
           </Col>
           </div>
-        <Card style={{ padding: '10px', margin: 'auto', right: '70px', background: '#fac5f1d5', width: 'fit-content' }}>
+        <Card style={{ padding: '10px', margin: 'auto', right: '70px', background: 'rgb(154 230 245 / 63%)', width: '50%', borderRadius: '15px' }}>
           <CardBody >
             <Col xs='12'>
               <Row className='justify-content-center'>
@@ -36,7 +36,7 @@ const Menu = () => {
                 <StyledButton onClick={() => setContext({ ...context, currentGameId: 2 })}>Кто, где живет?</StyledButton>
               </Row>
               <Row className='justify-content-center'>
-                <StyledButton onClick={() => setContext({ ...context, currentGameId: 3 })}>Чьи следы?</StyledButton>
+                <StyledButton onClick={() => setContext({ ...context, currentGameId: 3 })}>Чей след?</StyledButton>
               </Row>
               <Row className='justify-content-center'>
                 <StyledButton onClick={() => setContext({ ...context, currentGameId: 4 })}>Посчитай животных</StyledButton>

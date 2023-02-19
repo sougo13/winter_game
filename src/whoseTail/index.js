@@ -108,9 +108,9 @@ const WhoseTails = () => {
   return (
     <CardBlock style={{minHeight: '100vh'}}>
       <Title style={{ width: 'fit-content', margin: 'auto' }}>
-        Чьи следы?
+        Чей хвост?
       </Title>
-      <Card style={{ width: '100%',  background: '#fac5f1d5' }}>
+      <Card style={{ width: '100%',  background: 'rgb(154 230 245 / 63%)' }}>
         <CardBody >
           {stage === 3
             ? < React.Fragment>

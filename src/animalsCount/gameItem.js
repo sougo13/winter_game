@@ -28,7 +28,7 @@ const Answer = styled.div`
   border-radius: 15px;
   cursor: ${props=>props.disable ? 'auto' : 'pointer'};
   :hover{
-    background-color: ${props=>props.disable ? 'auto' : 'lightgreen'};;
+    background-color: ${props=>props.disable ? 'auto' : '#00c0e7'};;
   }
 `
 

@@ -8,17 +8,28 @@ export const CardBlock = styled.div`
 `
 
 export const Text = styled.div`
-  display: flex;
-  width: auto;
+  transition: color 1s, background-color 1s;
+  height: 50px;
+  width: 300px;
+  background-color: #0d6efd66;
+  color: transparent;
+  line-height: 50px;
+  text-align: center;
   font-size: 45px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  :hover{
+    background-color: transparent;
+    color: black;
+  }
 `
 
 export const Title = styled.div`
   display: flex;
-  text-shadow: 4px 4px black;
-  color: white;
+  text-shadow: 2px 2px #f8f9fa;
+  color: #212529;
   width: auto;
   font-size: 60px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -32,7 +43,7 @@ export const StyledImg = styled.img`
   opacity: ${props => props.disabled ? 0.4 : 1};
   transition-duration: 0.5s;
   transition-delay: 0ms;
-  border: ${props => props.selected ? '4px solid #e37bd2' : '0px solid #e37bd2'} ;
+  border: ${props => props.selected ? '4px solid #0d6efd' : '0px solid #0d6efd'} ;
   border-radius: 15px;
   cursor: ${props => props.disabled ? 'auto' : 'pointer'};
   :hover{
@@ -160,7 +171,7 @@ export const StyledButton = styled.button`
   margin-bottom: 35px;
   border-radius: 25px;
   :hover{
-    background-color: lightgreen;
+    background-color: #00c0e7;
     color: black;
   }
   @media(max-width: 1440px){
@@ -188,22 +199,24 @@ export const MainMenuButton = styled.img`
   left: 0;
   top: 0;
   cursor: pointer;
-  width: 100px;
+  width: 130px;
   height: auto;
   z-index: 999999;
 `
 
 export const MonthName = styled.div`
 display: flex;
-color: #0c05a0;
+color: #212529;
 width: auto;
-font-size: 30px;
+font-size: 45px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-weight: bold;
 align-items: center;
 justify-content: center;
+text-shadow: 2px 2px #f8f9fa;
 `
 
 export const MonthImg = styled.img`
   max-height: 270px;
+  border-radius: 45px;
 `

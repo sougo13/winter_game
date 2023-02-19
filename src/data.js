@@ -49,6 +49,34 @@ export const animals2 = [
   }
 ]
 
+export const animals3 = [
+  {
+    id: 5,
+    src: '../photos/animals/5.jpg',
+    name: 'Лиса'
+  },
+  {
+    id: 6,
+    src: '../photos/animals/6.jpg',
+    name: 'Ёж'
+  },
+  {
+    id: 7,
+    src: '../photos/animals/7.jpg',
+    name: 'Белка'
+  },
+  {
+    id: 8,
+    src: '../photos/animals/8.jpg',
+    name: 'Волк'
+  },
+  {
+    id: 9,
+    src: '../photos/animals/10.jpg',
+    name: 'Олень'
+  }
+]
+
 export const animalsCount1 = [
   {
     id: 1,
@@ -116,7 +144,7 @@ export const childrens1 = [
   {
     id: 1,
     src: '../photos/childrens/1.jpg',
-    name: 'Кабанёнок'
+    name: 'Поросенок'
   },
   {
     id: 2,
@@ -149,7 +177,7 @@ export const childrens2 = [
   {
     id: 7,
     src: '../photos/childrens/7.jpg',
-    name: 'Белчонок'
+    name: 'Бельчата'
   },
   {
     id: 8,
@@ -159,7 +187,7 @@ export const childrens2 = [
   {
     id: 9,
     src: '../photos/childrens/9.jpg',
-    name: 'Лосёнок'
+    name: 'Оленята'
   }
 ]
 
@@ -218,22 +246,22 @@ export const footprints1 = [
   {
     id: 1,
     src: '../photos/footprints/1.jpg',
-    name: 'Кабана'
+    name: 'Кабаний'
   },
   {
     id: 2,
     src: '../photos/footprints/2.jpg',
-    name: 'Бобра'
+    name: 'Бобриный'
   },
   {
     id: 3,
     src: '../photos/footprints/3.jpg',
-    name: 'Медведя'
+    name: 'Медвежий'
   },
   {
     id: 4,
     src: '../photos/footprints/4.jpg',
-    name: 'Барсука'
+    name: 'Барсучий'
   }
 ]
 
@@ -241,27 +269,27 @@ export const footprints2 = [
   {
     id: 5,
     src: '../photos/footprints/5.jpg',
-    name: 'Лисы'
+    name: 'Лисий'
   },
   {
     id: 6,
     src: '../photos/footprints/6.jpg',
-    name: 'Ежа'
+    name: 'Ежовый'
   },
   {
     id: 7,
     src: '../photos/footprints/7.jpg',
-    name: 'Белки'
+    name: 'Беличий'
   },
   {
     id: 8,
     src: '../photos/footprints/8.jpg',
-    name: 'Волка'
+    name: 'Волчий'
   },
   {
     id: 9,
     src: '../photos/footprints/9.jpg',
-    name: 'Лося'
+    name: 'Лосиный'
   }
 ]
 

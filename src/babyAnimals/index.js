@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, CardBody, Col, Row } from 'reactstrap';
-import { animals1, animals2, childrens1, childrens2 } from '../data';
+import { animals1, animals3, childrens1, childrens2 } from '../data';
 import { AnswerImg, CardBlock, EndMessage, MashaImg, MiniMashaImg, StyledImg, Text, Title } from '../styled';
 
 function shuffle(array) {
@@ -42,7 +42,7 @@ const BabyAnimals = () => {
 
   useEffect(() => {
     if (stage === 2) {
-      let newAnimals = [...animals2];
+      let newAnimals = [...animals3];
       newAnimals = shuffle(newAnimals);
       setAllAnimals(newAnimals);
       let newPlaces = [...childrens2];
@@ -110,7 +110,7 @@ const BabyAnimals = () => {
       <Title style={{ width: 'fit-content', margin: 'auto' }}>
         Детеныши диких животных
       </Title>
-      <Card style={{ width: '100%', background: '#fac5f1d5' }}>
+      <Card style={{ width: '100%', background: 'rgb(154 230 245 / 63%)' }}>
         <CardBody >
           {stage === 3
             ? < React.Fragment>

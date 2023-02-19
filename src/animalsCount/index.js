@@ -37,7 +37,7 @@ const AnimalsCount = () => {
       <Title style={{ width: 'fit-content', margin: 'auto' }}>
         Посчитай животных
       </Title>
-      <Card style={{ width: '100%', background: '#fac5f1d5' }}>
+      <Card style={{ width: '100%', background: 'rgb(154 230 245 / 63%)' }}>
         <CardBody >
           {animalsCount1.length === count
             ? < React.Fragment>
