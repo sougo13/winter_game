@@ -10,7 +10,7 @@ const Menu = () => {
   return (
       <CardBlock style={{minHeight: '100vh'}}>
         <Title style={{ marginRight: '75px' }} className='align-self-center'>
-        Говорим о зиме - В лесу с Машей
+        Говорим о зиме: в лесу с Машей
         </Title>
     <div style={{width: '100%', display: 'flex', justifyContent: 'space-around'}}>
           <Col xs='3'>
