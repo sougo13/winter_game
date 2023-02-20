@@ -302,7 +302,7 @@ export const tails1 = [
   {
     id: 2,
     src: '../photos/tails/2.jpg',
-    name: 'Бобриный'
+    name: 'Бобровый'
   },
   {
     id: 3,
@@ -325,7 +325,7 @@ export const tails2 = [
   {
     id: 6,
     src: '../photos/tails/6.jpg',
-    name: 'Ежиный'
+    name: 'Ежовый'
   },
   {
     id: 7,
